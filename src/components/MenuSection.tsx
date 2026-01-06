@@ -6,33 +6,93 @@ const MenuSection = () => {
       title: "Coffee",
       icon: Coffee,
       items: [
-        { name: "Espresso", description: "Rich, bold single shot", price: "$3.50" },
-        { name: "Cappuccino", description: "Espresso with steamed milk foam", price: "$4.50" },
-        { name: "Caffè Latte", description: "Smooth espresso with silky milk", price: "$5.00" },
-        { name: "Mocha", description: "Espresso with chocolate and milk", price: "$5.50" },
-        { name: "Americano", description: "Espresso with hot water", price: "$4.00" },
-        { name: "Cold Brew", description: "Slow-steeped for 20 hours", price: "$5.00" },
+        {
+          name: "Espresso",
+          description: "Rich, bold single shot",
+          price: "KES 250",
+        },
+        {
+          name: "Cappuccino",
+          description: "Espresso with steamed milk foam",
+          price: "KES 300",
+        },
+        {
+          name: "Caffè Latte",
+          description: "Smooth espresso with silky milk",
+          price: "KES 350",
+        },
+        {
+          name: "Mocha",
+          description: "Espresso with chocolate and milk",
+          price: "KES 400",
+        },
+        {
+          name: "Americano",
+          description: "Espresso with hot water",
+          price: "KES 300",
+        },
+        {
+          name: "Cold Brew",
+          description: "Slow-steeped for 20 hours",
+          price: "KES 450",
+        },
       ],
     },
     {
       title: "Other Drinks",
       icon: Leaf,
       items: [
-        { name: "Chai Latte", description: "Spiced tea with steamed milk", price: "$4.50" },
-        { name: "Matcha Latte", description: "Premium Japanese green tea", price: "$5.50" },
-        { name: "Hot Chocolate", description: "Rich Belgian chocolate", price: "$4.00" },
-        { name: "Herbal Tea", description: "Selection of organic teas", price: "$3.50" },
+        {
+          name: "Chai Latte",
+          description: "Spiced tea with steamed milk",
+          price: "KES 250",
+        },
+        {
+          name: "Matcha Latte",
+          description: "Premium green tea",
+          price: "KES 400",
+        },
+        {
+          name: "Hot Chocolate",
+          description: "Rich chocolate drink",
+          price: "KES 300",
+        },
+        {
+          name: "Herbal Tea",
+          description: "Selection of organic teas",
+          price: "KES 200",
+        },
       ],
     },
     {
       title: "Snacks & Pastries",
       icon: Cookie,
       items: [
-        { name: "Butter Croissant", description: "Flaky, golden, fresh-baked", price: "$4.00" },
-        { name: "Chocolate Chip Cookie", description: "Warm, gooey, homemade", price: "$3.00" },
-        { name: "Blueberry Muffin", description: "Bursting with fresh berries", price: "$3.50" },
-        { name: "Carrot Cake", description: "Cream cheese frosting", price: "$5.00" },
-        { name: "Avocado Toast", description: "Sourdough with fresh avocado", price: "$8.00" },
+        {
+          name: "Butter Croissant",
+          description: "Flaky, golden, fresh-baked",
+          price: "KES 250",
+        },
+        {
+          name: "Chocolate Chip Cookie",
+          description: "Soft, homemade",
+          price: "KES 180",
+        },
+        {
+          name: "Blueberry Muffin",
+          description: "Freshly baked daily",
+          price: "KES 220",
+        },
+        {
+          name: "Carrot Cake",
+          description: "Cream cheese frosting",
+          price: "KES 350",
+        },
+        {
+          name: "Avocado Toast",
+          description: "Sourdough with fresh avocado",
+          price: "KES 450",
+        },
       ],
     },
   ];
@@ -49,9 +109,9 @@ const MenuSection = () => {
             Our Menu
           </h2>
           <p className="text-muted-foreground text-lg">
-            Every item is crafted with care using the finest ingredients. From
-            our signature espresso to freshly baked pastries, taste the
-            difference quality makes.
+            Every item is crafted with care using quality ingredients. From our
+            signature coffee to freshly baked snacks, enjoy great taste in every
+            bite.
           </p>
         </div>
 
@@ -103,7 +163,7 @@ const MenuSection = () => {
 
         {/* Note */}
         <p className="text-center text-muted-foreground mt-12">
-          * All prices include tax. Dairy alternatives available for +$0.75
+          * All prices include tax. Dairy alternatives available for +KES 100
         </p>
       </div>
     </section>

@@ -2,18 +2,21 @@ import { Phone, MessageCircle, Clock, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ContactSection = () => {
-  const phoneNumber = "+1 (555) 123-4567";
-  const whatsappNumber = "1234567890";
-  const email = "hello@thecozybean.com";
+  const phoneNumber = "+254 799 363 883";
+  const whatsappNumber = "0799363883";
+  const email = "amohakaka@gmail.com";
 
   const hours = [
-    { day: "Monday - Friday", time: "7:00 AM - 9:00 PM" },
-    { day: "Saturday", time: "8:00 AM - 10:00 PM" },
-    { day: "Sunday", time: "8:00 AM - 8:00 PM" },
+    { day: "Monday - Friday", time: "7:00 AM - 3:00 AM" },
+    { day: "Saturday", time: "8:00 AM - 2:00 AM" },
+    { day: "Sunday", time: "8:00 AM - 2:00 AM" },
   ];
 
   return (
-    <section id="contact" className="section-padding bg-primary text-primary-foreground">
+    <section
+      id="contact"
+      className="section-padding bg-primary text-primary-foreground"
+    >
       <div className="container-narrow mx-auto">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
@@ -50,8 +53,12 @@ const ContactSection = () => {
             <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-[#25D366]/20 text-[#25D366] mb-5">
               <MessageCircle className="h-7 w-7" />
             </div>
-            <h3 className="font-display text-xl font-semibold mb-2">WhatsApp</h3>
-            <p className="text-primary-foreground/80 text-lg">Message us anytime</p>
+            <h3 className="font-display text-xl font-semibold mb-2">
+              WhatsApp
+            </h3>
+            <p className="text-primary-foreground/80 text-lg">
+              Message us anytime
+            </p>
           </div>
 
           {/* Email */}
@@ -73,7 +80,9 @@ const ContactSection = () => {
         <div className="max-w-md mx-auto bg-primary-foreground/5 rounded-2xl border border-primary-foreground/10 p-8 mb-12">
           <div className="flex items-center justify-center gap-3 mb-6">
             <Clock className="h-6 w-6 text-accent" />
-            <h3 className="font-display text-2xl font-semibold">Opening Hours</h3>
+            <h3 className="font-display text-2xl font-semibold">
+              Opening Hours
+            </h3>
           </div>
           <div className="space-y-3">
             {hours.map((schedule) => (
@@ -81,7 +90,9 @@ const ContactSection = () => {
                 key={schedule.day}
                 className="flex justify-between items-center py-2 border-b border-primary-foreground/10 last:border-0"
               >
-                <span className="text-primary-foreground/80">{schedule.day}</span>
+                <span className="text-primary-foreground/80">
+                  {schedule.day}
+                </span>
                 <span className="font-semibold">{schedule.time}</span>
               </div>
             ))}

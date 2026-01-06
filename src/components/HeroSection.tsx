@@ -23,7 +23,7 @@ const HeroSection = () => {
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-8 animate-fade-up">
             <span className="w-2 h-2 bg-accent rounded-full animate-pulse" />
             <span className="text-white/90 text-sm font-medium">
-              Open Daily · 7AM - 9PM
+              Open Daily · 7AM - 3AM
             </span>
           </div>
 
@@ -59,7 +59,7 @@ const HeroSection = () => {
           >
             <Button variant="whatsapp" size="xl" asChild>
               <a
-                href="https://wa.me/1234567890?text=Hi! I'd like to make an order"
+                href="https://wa.me/254799363883?text=Hi! I'd like to make an order"
                 target="_blank"
                 rel="noopener noreferrer"
               >
