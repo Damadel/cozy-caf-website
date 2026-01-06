@@ -7,7 +7,8 @@ The website includes a café menu with KES pricing, location with Google Maps, c
 
 🌍 Live Website
 
-🚀 Live URL: (Add Netlify link after deployment)
+cozy-caf-website.netlify.app
+
 
 📍 Café Location
 
