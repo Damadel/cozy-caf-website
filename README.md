@@ -1,73 +1,165 @@
-# Welcome to your Lovable project
+☕ Cozy Café Website
 
-## Project info
+A modern, responsive café website built with React, TypeScript, and Tailwind CSS.
+This project is customized for Cozy Café, located at Madina Mall, Mohammed Yusuf Haji Ave, Starehe, Nairobi.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The website includes a café menu with KES pricing, location with Google Maps, contact details, and a clean professional design suitable for a real business.
 
-## How can I edit this code?
+🌍 Live Website
 
-There are several ways of editing your application.
+🚀 Live URL: (Add Netlify link after deployment)
 
-**Use Lovable**
+📍 Café Location
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Cozy Café
+Madina Mall
+Mohammed Yusuf Haji Ave
+Starehe, Nairobi, Kenya
 
-Changes made via Lovable will be committed automatically to this repo.
+✨ Features
 
-**Use your preferred IDE**
+Fully responsive (mobile, tablet & desktop)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Modern café UI design
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Menu with Kenyan prices (KES)
 
-Follow these steps:
+Google Maps embed & directions
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+WhatsApp, phone & email contact
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Fast performance with Vite
 
-# Step 3: Install the necessary dependencies.
-npm i
+Easy to customize and extend
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Production-ready deployment
+
+🛠 Tech Stack
+
+This project is built using:
+
+Vite
+
+React
+
+TypeScript
+
+Tailwind CSS
+
+shadcn/ui
+
+lucide-react
+
+🚀 Getting Started (Local Development)
+Prerequisites
+
+Make sure you have:
+
+Node.js v18+
+
+npm
+
+Recommended installation via nvm:
+https://github.com/nvm-sh/nvm
+
+1️⃣ Clone the repository (main branch)
+git clone -b main https://github.com/Damadel/cozy-caf-website.git
+
+
+Or if already cloned:
+
+git checkout main
+
+2️⃣ Navigate to the project directory
+cd cozy-caf-website
+
+3️⃣ Install dependencies
+npm install
+
+4️⃣ Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Open in your browser:
 
-**Use GitHub Codespaces**
+http://localhost:5173
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+The site will auto-reload when files change.
 
-This project is built with:
+✏️ Customization Guide
+📌 Update Content
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Navbar & brand name
+src/components/Navbar.tsx
 
-## How can I deploy this project?
+Hero section text
+src/components/HeroSection.tsx
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Menu & prices (KES)
+src/components/MenuSection.tsx
 
-## Can I connect a custom domain to my Lovable project?
+Location & Google Maps
+src/components/LocationSection.tsx
 
-Yes, you can!
+Contact details (WhatsApp, phone, email)
+src/components/ContactSection.tsx
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Footer content
+src/components/Footer.tsx
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+🖼 Images
+
+Replace images inside:
+
+src/assets/
+
+
+💡 Tip: keep the same file names to avoid changing imports.
+
+🌐 Deployment (Netlify)
+
+This project is optimized for Netlify deployment.
+
+Netlify Build Settings
+
+Build command
+
+npm run build
+
+
+Publish directory
+
+dist
+
+
+After deployment, Netlify will provide a live URL such as:
+
+https://cozy-cafe-starehe.netlify.app
+
+🔒 Environment Variables
+
+No environment variables are required for this project.
+
+📈 Future Improvements
+
+Online ordering form
+
+Google Analytics integration
+
+SEO optimization
+
+Custom domain (.co.ke)
+
+WhatsApp auto-reply & CTA enhancements
+
+📄 License
+
+This project is open-source and free to use for learning and business purposes.
+
+👤 Author
+
+Cozy Café Website
+📍 Starehe, Nairobi, Kenya
+📧 amohakaka@gmail.com
+
