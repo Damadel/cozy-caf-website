@@ -6,9 +6,7 @@ This project is customized for Cozy Café, located at Madina Mall, Mohammed Yusu
 The website includes a café menu with KES pricing, location with Google Maps, contact details, and a clean professional design suitable for a real business.
 
 🌍 Live Website
-
-cozy-caf-website.netlify.app
-
+https://cozy-caf-website.netlify.app
 
 📍 Café Location
 
